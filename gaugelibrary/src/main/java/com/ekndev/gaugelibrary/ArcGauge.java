@@ -53,8 +53,8 @@ public class ArcGauge extends FullGauge {
         getGaugeBackGround().setStrokeWidth(gaugeBGWidth);
         getGaugeBackGround().setStrokeCap(Paint.Cap.ROUND);
         getGaugeBackGround().setColor(Color.parseColor("#D6D6D6"));
-        getTextPaint().setTextSize(35f);
-        setPadding(20f);
+        getTextPaint().setTextSize(100f);
+        //setPadding(20f);
         setSweepAngle(sweepAngle);
         setStartAngle(startAngle);
     }
